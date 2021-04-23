@@ -98,7 +98,7 @@ const (
 //     transFactory := thrift.NewTFramedTransportFactoryConf(thrift.NewTTransportFactory(), conf)
 //     protoFactory := thrift.NewTBinaryProtocolFactoryConf(conf)
 //
-// [1]: https://github.com/apache/thrift/blob/master/doc/specs/thrift-tconfiguration.md
+// [1]: https://github.com/mkaiser323/thrift/blob/master/doc/specs/thrift-tconfiguration.md
 type TConfiguration struct {
 	// If <= 0, DEFAULT_MAX_MESSAGE_SIZE will be used instead.
 	MaxMessageSize int32

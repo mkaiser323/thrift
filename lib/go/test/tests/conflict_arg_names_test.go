@@ -20,7 +20,7 @@
 package tests
 
 import (
-	"github.com/apache/thrift/lib/go/test/gopath/src/conflictargnamestest"
+	"github.com/mkaiser323/thrift/lib/go/test/gopath/src/conflictargnamestest"
 )
 
 // We just want to make sure that the conflictargnamestest package compiles.

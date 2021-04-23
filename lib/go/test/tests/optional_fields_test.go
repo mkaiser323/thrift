@@ -26,8 +26,8 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/apache/thrift/lib/go/test/gopath/src/optionalfieldstest"
-	"github.com/apache/thrift/lib/go/thrift"
+	"github.com/mkaiser323/thrift/lib/go/test/gopath/src/optionalfieldstest"
+	"github.com/mkaiser323/thrift/lib/go/thrift"
 )
 
 func TestIsSetReturnFalseOnCreation(t *testing.T) {

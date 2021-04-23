@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/apache/thrift/lib/go/test/gopath/src/ignoreinitialismstest"
+	"github.com/mkaiser323/thrift/lib/go/test/gopath/src/ignoreinitialismstest"
 )
 
 func TestIgnoreInitialismsFlagIsHonoured(t *testing.T) {

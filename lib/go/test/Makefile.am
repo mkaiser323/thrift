@@ -17,7 +17,7 @@
 # under the License.
 #
 
-THRIFTARGS = -out gopath/src/ --gen go:thrift_import=github.com/apache/thrift/lib/go/thrift,package_prefix=github.com/apache/thrift/lib/go/test/gopath/src/$(COMPILER_EXTRAFLAG)
+THRIFTARGS = -out gopath/src/ --gen go:thrift_import=github.com/mkaiser323/thrift/lib/go/thrift,package_prefix=github.com/mkaiser323/thrift/lib/go/test/gopath/src/$(COMPILER_EXTRAFLAG)
 THRIFTTEST = $(top_srcdir)/test/ThriftTest.thrift
 
 # Thrift for GO has problems with complex map keys: THRIFT-2063
@@ -100,7 +100,7 @@ check: gopath
 				./gopath/src/duplicateimportstest \
 				./gopath/src/equalstest \
 				./gopath/src/conflictargnamestest
-	$(GO) test -mod=mod github.com/apache/thrift/lib/go/thrift
+	$(GO) test -mod=mod github.com/mkaiser323/thrift/lib/go/thrift
 	$(GO) test -mod=mod ./gopath/src/tests ./gopath/src/dontexportrwtest
 
 clean-local:

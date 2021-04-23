@@ -24,7 +24,7 @@ package tests
 
 import (
 	"context"
-	thrift "github.com/apache/thrift/lib/go/thrift"
+	thrift "github.com/mkaiser323/thrift/lib/go/thrift"
 
 	gomock "github.com/golang/mock/gomock"
 )

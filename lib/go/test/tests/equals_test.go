@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/apache/thrift/lib/go/test/gopath/src/equalstest"
+	"github.com/mkaiser323/thrift/lib/go/test/gopath/src/equalstest"
 )
 
 func TestEquals(t *testing.T) {

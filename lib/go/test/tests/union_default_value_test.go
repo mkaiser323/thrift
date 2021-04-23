@@ -22,7 +22,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/apache/thrift/lib/go/test/gopath/src/uniondefaultvaluetest"
+	"github.com/mkaiser323/thrift/lib/go/test/gopath/src/uniondefaultvaluetest"
 )
 
 func TestUnionDefaultValue(t *testing.T) {

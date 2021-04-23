@@ -54,7 +54,7 @@ const (
 )
 
 // Constants defined in THeader format:
-// https://github.com/apache/thrift/blob/master/doc/specs/HeaderFormat.md
+// https://github.com/mkaiser323/thrift/blob/master/doc/specs/HeaderFormat.md
 const (
 	THeaderHeaderMagic  uint32 = 0x0fff0000
 	THeaderHeaderMask   uint32 = 0xffff0000

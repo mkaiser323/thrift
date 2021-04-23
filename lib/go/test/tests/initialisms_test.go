@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/apache/thrift/lib/go/test/gopath/src/initialismstest"
+	"github.com/mkaiser323/thrift/lib/go/test/gopath/src/initialismstest"
 )
 
 func TestThatCommonInitialismsAreFixed(t *testing.T) {

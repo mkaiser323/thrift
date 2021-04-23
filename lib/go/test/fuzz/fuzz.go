@@ -29,7 +29,7 @@ import (
 	"shared"
 	"tutorial"
 
-	"github.com/apache/thrift/lib/go/thrift"
+	"github.com/mkaiser323/thrift/lib/go/thrift"
 )
 
 const nbFuzzedProtocols = 2
